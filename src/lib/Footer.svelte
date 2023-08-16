@@ -5,14 +5,21 @@
 <div class="flex flex-col gap-2 items-center justify-center dark:text-white py-8">
 	<div class="flex gap-2 items-center">
 		<Copyright size="18px" />
-		<p class="font-semibold">2023 nooney</p>
+		<div class="flex gap-1 items-center">
+			<p class="font-semibold">2023 nooney.</p>
+			<button
+				class="font-semibold underline decoration-current decoration-2"
+				on:click={() => window.open('https://choosealicense.com/licenses/agpl-3.0')}
+				>GNU AGPLv3</button
+			>
+		</div>
 	</div>
 	<button
 		class="flex gap-[6px] items-center"
 		on:click={() => window.open('https://github.com/nooneyy/spiin')}
 	>
 		<Github size="20px" />
-		<p class="font-semibold">spiin</p>
+		<p class="font-semibold underline decoration-current decoration-2">spiin</p>
 	</button>
 	<div class="flex gap-2 items-center justify-center">
 		<div class="flex gap-2 items-center">
