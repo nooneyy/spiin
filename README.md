@@ -1,38 +1,22 @@
-# create-svelte
+# Spiin
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+An ad-free aggregator for Coin Master rewards.
 
-## Creating a project
+## Official site
 
-If you're seeing this, you've probably already done this step. Congrats!
+Visit the official site of Spiin on [spiin.pages.dev](https://spiin.pages.dev)!
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Explanation
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+While the source code of the website itself is public, the API that the site fetches from is private. The API itself fetches its data from a database for mobile apps that provide CM rewards in exchange for ads. I didn't like this behavior, so I made this instead. If you for some reason wish to access this API, please contact me privately.
 
-## Developing
+## Contributing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
-```bash
-npm run dev
+Please make sure to update tests as appropriate.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## License
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+[GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/)
