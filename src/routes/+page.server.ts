@@ -9,7 +9,7 @@ interface Reward {
 }
 
 export const load: PageServerLoad = async ({ platform }) => {
-	const data = await platform?.env.API_DB.get('db', { cacheTtl: 86400 });
+	const data = await platform?.env.API_DB.get('db', { cacheTtl: 180 });
 	const jsonRewards: Reward[] = JSON.parse(data ?? '[]');
 
 	return { jsonRewards };
