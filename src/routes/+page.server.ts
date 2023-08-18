@@ -21,7 +21,7 @@ export const load: PageServerLoad = async ({ platform }) => {
 			minute: 'numeric'
 		};
 		const dateFormatter = new Intl.DateTimeFormat('en-US', formatOptions);
-		reward.disp_time = dateFormatter.format(date); // Calling format() directly
+		reward.disp_time = dateFormatter.format(date);
 	});
 
 	return { jsonRewards };
